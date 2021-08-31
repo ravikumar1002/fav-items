@@ -24,6 +24,7 @@
   padding: 0.4rem;
   margin: 0.8rem;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 .activeBtn {
