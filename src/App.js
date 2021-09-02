@@ -12,7 +12,10 @@ export default function App() {
   return (
     <div className="App">
       <h1> My favorite items</h1>
-      <h3>Checkout my favorite books. Select a genre to get started</h3>
+      <h3>
+        Checkout my different type of favorite things.It can be help your
+        enjoyment
+      </h3>
       <div className="center-box">
         <div className="content-box">
           <div className="left-side-part">
