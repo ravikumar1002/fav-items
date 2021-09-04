@@ -24,35 +24,35 @@ export default function App() {
               onClick={() => listOne(1)}
             >
               {" "}
-              Movies{" "}
+              Party{" "}
             </button>
             <button
               className={listItem === 2 ? "activeBtn" : "btn"}
               onClick={() => listOne(2)}
             >
               {" "}
-              Sports
+              Retro
             </button>
             <button
               className={listItem === 3 ? "activeBtn" : "btn"}
               onClick={() => listOne(3)}
             >
               {" "}
-              Food{" "}
+              Indie{" "}
             </button>
             <button
               className={listItem === 4 ? "activeBtn" : "btn"}
               onClick={() => listOne(4)}
             >
               {" "}
-              Travel Place{" "}
+              EDM{" "}
             </button>
             <button
               className={listItem === 5 ? "activeBtn" : "btn"}
               onClick={() => listOne(5)}
             >
               {" "}
-              Music{" "}
+              90s & Early 2000s{" "}
             </button>
           </div>
           <div className="right-side-part">
@@ -61,27 +61,27 @@ export default function App() {
               style={{ display: listItem === 1 ? "block" : "none" }}
             >
               <div>
-                <p>Iron Man 3 </p>
+                <p>‘Hey Ya’ – Outkast</p>
                 <p>⭐ 8/10</p>
               </div>
               <div>
-                <p> Avengers: Age of Ultron </p>
+                <p>‘Don't Stop ’Til You Get Enough’ – Michael Jackson</p>
                 <p>⭐ 7.3/10</p>
               </div>
               <div>
-                <p>Ant-Man and the Wasp </p>
+                <p>‘Get Lucky’ – Daft Punk featuring Pharrell Williams </p>
                 <p>⭐ 7/10</p>
               </div>{" "}
               <div>
-                <p> Avengers: Infinity War </p>
+                <p> ‘Push It’ – Salt-N-Pepa </p>
                 <p>⭐ 8.3/10</p>
               </div>{" "}
               <div>
-                <p> Phir Hera Pheri </p>
+                <p> ‘Let’s Dance’ – David Bowie </p>
                 <p>⭐ 7.8/10</p>
               </div>{" "}
               <div>
-                <p> Munna Bhai M.B.B.S. </p>
+                <p> ‘Twist and Shout’ – The Beatles</p>
                 <p>⭐ 8.1/10</p>
               </div>
             </div>
@@ -90,27 +90,27 @@ export default function App() {
               style={{ display: listItem === 2 ? "block" : "none" }}
             >
               <div>
-                <p>Football (Soccer)</p>
+                <p>Wake Me Up Before You Go-Go</p>
                 <p>⭐ 9/10</p>
               </div>
               <div>
-                <p>Cricket </p>
+                <p>Girls Just Wanna Have Fun</p>
                 <p>⭐ 8.5/10</p>
               </div>
               <div>
-                <p>Hockey (Ice and Field)</p>
+                <p>I Love Rock and Roll – Joan Jet</p>
                 <p>⭐ 7.5/10</p>
               </div>
               <div>
-                <p>Tennis </p>
+                <p>Boom Boom Pow – Black Eyed Peas </p>
                 <p>⭐ 8/10</p>
               </div>
               <div>
-                <p>Volleyball</p>
+                <p> Love Story – Taylor Swift</p>
                 <p>⭐ 7/10</p>
               </div>
               <div>
-                <p>Basketball </p>
+                <p>Drop It Like It’s Hot – Snoop Dogg with Pharrell</p>
                 <p>⭐ 7.6/10</p>
               </div>
             </div>
@@ -119,27 +119,27 @@ export default function App() {
               style={{ display: listItem === 3 ? "block" : "none" }}
             >
               <div>
-                <p>Butter Chicken</p>
+                <p> Jessica Pratt – Back Baby</p>
                 <p>⭐ 8.5/10</p>
               </div>
               <div>
-                <p>Chaat</p>
+                <p> Bon Iver – Holocene</p>
                 <p> ⭐ 8/10</p>
               </div>
               <div>
-                <p>Kulfi</p>
+                <p>Vampire Weekend – Hannah Hunt</p>
                 <p>⭐ 8/10</p>
               </div>
               <div>
-                <p>Dosa </p>
+                <p>St. Vincent – Prince Johnny</p>
                 <p>⭐ 7.6/10</p>
               </div>
               <div>
-                <p>Samosa</p>
+                <p>Perfume Genius – Queen</p>
                 <p>⭐ 7/10</p>
               </div>
               <div>
-                <p>Vada Pav</p>
+                <p>Future Island – Seasons</p>
                 <p> ⭐ 9/10</p>
               </div>
             </div>
@@ -148,27 +148,27 @@ export default function App() {
               style={{ display: listItem === 4 ? "block" : "none" }}
             >
               <div>
-                <p>The Taj Mahal, Agra</p>
+                <p>DJ Snake feat. Justin Bieber – “Let Me Love You” (</p>
                 <p>⭐ 8/10</p>
               </div>
               <div>
-                <p>Harmandir Sahib: The Golden Temple of Amritsar</p>
+                <p> Disclosure – “When a Fire Starts to Burn” </p>
                 <p>⭐ 9.5/10</p>
               </div>
               <div>
-                <p>The Red Fort, New Delhi</p>
+                <p> Calvin Harris – “Feel So Close” (2011)</p>
                 <p>⭐ 7/10</p>
               </div>
               <div>
-                <p> The Beaches of Goa</p>
+                <p> Avicii – “Levels” </p>
                 <p>⭐ 8.2/10</p>
               </div>
               <div>
-                <p> Periyar National Park and Wildlife Sanctuary, Madurai</p>
+                <p>  DJ Snake feat. Lil Jon – “Turn Down for What”</p>
                 <p>⭐ 8.8/10</p>
               </div>
               <div>
-                <p>Munnar, Kerala</p>
+                <p>Major Lazer & DJ Snake feat. MØ – “Lean On</p>
                 <p>⭐ 8.3/10</p>
               </div>
             </div>
@@ -177,27 +177,27 @@ export default function App() {
               style={{ display: listItem === 5 ? "block" : "none" }}
             >
               <div>
-                <p>Shape of You</p>
+                <p>Sitaron Ki Mehfil</p>
                 <p>⭐ 8.5/10</p>
               </div>
               <div>
-                <p>Dance Monkey</p>
+                <p>Ek Pal Ka Jeena</p>
                 <p>⭐ 8/10</p>
               </div>
               <div>
-                <p>Bad Guy</p>
+                <p>Aankhein Khuli Ho Ya Ho Band</p>
                 <p>⭐ 7.5/10</p>
               </div>
               <div>
-                <p>Believer</p>
+                <p>Que Sera Sera</p>
                 <p>⭐ 7.6/10</p>
               </div>
               <div>
-                <p>Closer</p>
+                <p>Koi Kahe</p>
                 <p>⭐ 9/10</p>
               </div>
               <div>
-                <p>Despacito</p>
+                <p>You are my Soniya</p>
                 <p>⭐ 8.7/10</p>
               </div>
             </div>
