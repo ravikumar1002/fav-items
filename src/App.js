@@ -11,11 +11,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> My favorite items</h1>
-      <h3>
-        Checkout my different type of favorite things.It can be help your
-        enjoyment
-      </h3>
+      <h1> My favorite Songs</h1>
+      <h3>Checkout my different type of songs.It can be help your enjoyment</h3>
       <div className="center-box">
         <div className="content-box">
           <div className="left-side-part">
@@ -164,7 +161,7 @@ export default function App() {
                 <p>⭐ 8.2/10</p>
               </div>
               <div>
-                <p>  DJ Snake feat. Lil Jon – “Turn Down for What”</p>
+                <p> DJ Snake feat. Lil Jon – “Turn Down for What”</p>
                 <p>⭐ 8.8/10</p>
               </div>
               <div>
