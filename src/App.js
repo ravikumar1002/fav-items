@@ -80,7 +80,7 @@ export default function App() {
                 <p>⭐ 7.3/10</p>
               </div>
               <div>
-                <p>‘Get Lucky’ – Daft Punk featuring Pharrell Williams </p>
+                <p>‘Get Lucky’ </p>
                 <p className="description">
                   "Get Lucky" is a song by French electronic music duo Daft
                   Punk, featuring American singer Pharrell Williams and American
